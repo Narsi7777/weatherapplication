@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #3498db, #9b59b6);
+}
+.weather-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 200px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #9b59b6, #e74c3c);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap:20px
+
+}
+
+.box h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.box h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+.check-button{
+    background: linear-gradient(to right, #049f80, #8310b1);
+    border-radius: 20px;
+    cursor: pointer ;
+    color: white;
+    border: none;
+    padding: 10px;
+    }   
+.check-button:hover{
+    background: linear-gradient(to right, #1abc9c, #9b59b6);
+}
+
+.fetch-button{
+    background: linear-gradient(to right, #049f80, #8310b1);
+    border-radius: 20px;
+    cursor: pointer ;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.fetch-button:hover{
+    background: linear-gradient(to right, #1abc9c, #9b59b6);
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+}
+
+.inputText{
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    
+}
+
+.temprature h1{
+    justify-content: center;
+    align-items: center;
+}

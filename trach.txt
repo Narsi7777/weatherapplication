@@ -1,0 +1,28 @@
+to get city name using laitudes and longitudes
+
+
+https://us1.locationiq.com/v1/reverse?key=pk.8598eb549b83c48f1b3339c29a40d0f9&lat=15.8309&lon=78.0425&format=json
+
+
+
+original url
+
+https://us1.locationiq.com/v1/reverse?key=pk.8598eb549b83c48f1b3339c29a40d0f9&lat=16.5167&lon=80.6167&format=json
+
+acces token 
+
+pk.8598eb549b83c48f1b3339c29a40d0f9
+
+
+//weather using city name
+
+   const apiKeyForCity="72b0f5ca6dd9bf56ee44425efb2811a1";
+        const url=`https://api.openweathermap.org/data/2.5/weather?q=vijayawada&appid=${apiKeyForCity}`;
+        try{
+            const responce=await fetch(url);
+            const data=await responce.json();
+            console.log(data);
+
+        }catch(error){ 
+            console.log("Error is",error.message);
+        }
