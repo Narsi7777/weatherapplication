@@ -12,6 +12,7 @@ function Weather(){
     const [inputCity,setInputCity]=useState("");
 
     const navigate=useNavigate();
+    
     useEffect(()=>{
         navigator.geolocation.getCurrentPosition(currentLocation,error);
     },[]);
